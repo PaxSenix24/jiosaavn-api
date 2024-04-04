@@ -25,14 +25,5 @@ Home.get('/', (c) => {
   const title = 'JioSaavn API'
   const description =
     'JioSaavn API is an unofficial wrapper written in TypeScript for jiosaavn.com providing programmatic access to a vast library of songs, albums, artists, playlists, and more.'
-  return {
-     openapi: '3.1.0',
-     info: {
-       version: '3.0.0',
-       title: 'JioSaavn Free API',
-       description: `# Introduction 
-        \nJioSaavn API, accessible at Sketchub., is an unofficial API that allows users to download high-quality songs from [JioSaavn](https://jiosaavn.com). 
-        It offers a fast, reliable, and easy-to-use API for developers. \n`
-     }
-  }
+  return c.html("<h1>Hello world</h1>")
 })
