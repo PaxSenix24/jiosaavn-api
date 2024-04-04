@@ -42,10 +42,10 @@ export class App {
         openapi: '3.1.0',
 
         info: {
-          version: '1.0.0',
-          title: 'JioSaavn API',
+          version: '3.0.0',
+          title: 'JioSaavn Free API',
           description: `# Introduction 
-        \nJioSaavn API, accessible at [saavn.dev](https://saavn.dev), is an unofficial API that allows users to download high-quality songs from [JioSaavn](https://jiosaavn.com). 
+        \nJioSaavn API, accessible at Sketchub., is an unofficial API that allows users to download high-quality songs from [JioSaavn](https://jiosaavn.com). 
         It offers a fast, reliable, and easy-to-use API for developers. \n`
         },
         servers: [{ url: `${protocol}//${hostname}${port ? `:${port}` : ''}`, description: 'Current environment' }]
@@ -62,9 +62,9 @@ export class App {
         darkMode: true,
         metaData: {
           applicationName: 'JioSaavn API',
-          author: 'Sumit Kolhe',
-          creator: 'Sumit Kolhe',
-          publisher: 'Sumit Kolhe',
+          author: 'paxsenix0',
+          creator: 'paxsenix0',
+          publisher: 'paxsenix0',
           robots: 'index, follow',
           description:
             'JioSaavn API is an unofficial wrapper written in TypeScript for jiosaavn.com providing programmatic access to a vast library of songs, albums, artists, playlists, and more.'
