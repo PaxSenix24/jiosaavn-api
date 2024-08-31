@@ -43,9 +43,9 @@ export class App {
 
         info: {
           version: '3.0.0',
-          title: 'JioSaavn Free API',
+          title: 'JioSaavn API',
           description: `# Introduction 
-        \nJioSaavn API, accessible at Sketchub., is an unofficial API that allows users to download high-quality songs from [JioSaavn](https://jiosaavn.com). 
+        \nJioSaavn API, accessible at Telegram., is an unofficial API that allows users to download high-quality songs from [JioSaavn](https://jiosaavn.com). 
         It offers a fast, reliable, and easy-to-use API for developers. \n`
         },
         servers: [{ url: `${protocol}//${hostname}${port ? `:${port}` : ''}`, description: 'Current environment' }]
