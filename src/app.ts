@@ -83,6 +83,7 @@ export class App {
   private initializeErrorHandler() {
     this.app.onError((err, ctx) => {
       const error = err as HTTPException
+      console.error(error)
       return ctx.json({ success: false, message: error.message }, error.status || 500)
     })
   }
