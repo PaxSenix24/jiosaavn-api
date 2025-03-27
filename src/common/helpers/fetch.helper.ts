@@ -21,7 +21,11 @@ export const useFetch = async <T>({
 
   Object.keys(params).forEach((key) => url.searchParams.append(key, String(params[key])))
 
-  const response = await fetch(url.toString())
+  const response = await fetch(url.toString(), {
+    headers: {
+      "User-Agent": "okhttp/4.1.3"
+    }
+  })
   const data = await response.json()
 
   console.log(data);
